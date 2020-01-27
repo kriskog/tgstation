@@ -1848,6 +1848,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	character.name = character.real_name
 
 	character.gender = gender
+	character.speech_sound = gender
 	character.age = age
 	if(gender == MALE || gender == FEMALE)
 		character.body_type = gender

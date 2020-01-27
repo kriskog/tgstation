@@ -17,6 +17,7 @@
 	speak_chance = 1
 	turns_per_move = 10
 	can_be_held = TRUE
+	speech_sound = "bark"
 	var/turns_since_scan = 0
 	var/obj/movement_target
 
