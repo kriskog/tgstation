@@ -52,6 +52,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	var/nojumpsuit = FALSE
 	///Affects the speech message, for example: Motharula flutters, "My speech message is flutters!"
 	var/say_mod = "says"
+	///When TRUE, picks speech sounds based on mob gender.
+	var/gendered_speech = FALSE
+	///Overrides the default human speech sound.
+	var/speech_sound = ""
 	///What languages this species can understand and say. Use a [language holder datum][/datum/language_holder] in this var.
 	var/species_language_holder = /datum/language_holder
 	/// Default mutant bodyparts for this species, like horns. Don't forget to set one for every mutant bodypart you allow this species to have.
